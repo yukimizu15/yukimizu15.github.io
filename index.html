@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>シータヒーリング 無料モニターセッション募集</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f2f7f7; --paper:#fffdf8; --ink:#4a4540; --sub:#7b746c;
+  --water:#8fc3d3; --water-soft:#dcedf2; --moss:#7ea17a; --moss-soft:#e3eedd;
+  --earth:#9a7a5f; --blossom:#f3bcc4; --blossom-soft:#fbe6e9; --line:#b9b2a6;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#1b2326; --paper:#242d30; --ink:#ece6dc; --sub:#b3aca1;
+    --water:#6fa9bb; --water-soft:#263a40; --moss:#8fb58a; --moss-soft:#27352a;
+    --earth:#c9a583; --blossom:#d98f9a; --blossom-soft:#3a2a2e; --line:#5a6366;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1b2326; --paper:#242d30; --ink:#ece6dc; --sub:#b3aca1;
+  --water:#6fa9bb; --water-soft:#263a40; --moss:#8fb58a; --moss-soft:#27352a;
+  --earth:#c9a583; --blossom:#d98f9a; --blossom-soft:#3a2a2e; --line:#5a6366;
+  color-scheme:dark;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:"Zen Maru Gothic","Hiragino Maru Gothic ProN","Yu Gothic",sans-serif;font-weight:500;
+  line-height:1.95;font-size:16px;-webkit-text-size-adjust:100%}
+h1,h2,h3,.hand{font-family:"Zen Maru Gothic","Hiragino Maru Gothic ProN",sans-serif;font-weight:700}
+main{max-width:560px;margin:0 auto;padding:0 20px 56px}
+section{margin-top:56px}
+h2{font-size:1.45rem;line-height:1.6;margin:0 0 16px;text-align:center}
+h2::after{content:"";display:block;width:110px;height:9px;margin:6px auto 0;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 110 9'%3E%3Cpath d='M2 5 C14 1 24 8 36 4 S58 1 70 5 S94 8 108 3' fill='none' stroke='%238fc3d3' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E") center/contain no-repeat}
+p{margin:0 0 1em}
+
+/* hero */
+.hero{text-align:center;padding-top:28px}
+.badge{display:inline-block;font-family:"Zen Maru Gothic",sans-serif;font-weight:700;background:var(--blossom-soft);color:var(--ink);
+  padding:4px 18px;border-radius:60% 40% 55% 45%/50% 55% 45% 50%;border:2px dashed var(--blossom);font-size:.95rem}
+.hero h1{font-size:1.75rem;line-height:1.5;margin:18px 0 6px;letter-spacing:.04em}
+.hero .lead{font-size:1rem;color:var(--sub);margin:0 0 4px}
+.journey{margin:14px auto 0;width:100%;max-width:340px;display:block;overflow:visible}
+.ln-ink{fill:none;stroke:var(--ink);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.ln-soft{fill:none;stroke:var(--sub);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.rough{filter:none}
+.draw{stroke-dasharray:1;animation:draw 2.4s cubic-bezier(.4,.1,.2,1) both}
+@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+.fl{animation:float 7s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.fl.d2{animation-delay:-2.3s}.fl.d3{animation-delay:-4.6s}
+@keyframes float{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-7px) rotate(4deg)}}
+@media (prefers-reduced-motion:reduce){.draw,.fl{animation:none}}
+.doodle{position:absolute;width:38px;height:38px;pointer-events:none}
+.hero h1{position:relative}
+.twk{position:absolute;pointer-events:none;overflow:visible;animation:twinkle 3.6s ease-in-out infinite}
+@keyframes twinkle{0%,100%{opacity:.45;transform:scale(.8) rotate(-6deg)}50%{opacity:1;transform:scale(1.12) rotate(8deg)}}
+@media (prefers-reduced-motion:reduce){.twk{animation:none;opacity:.9}}
+:root{--lav:#e4c8e6;--dew:#f1e3f6}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--lav:#6a4f7a;--dew:#5e3f52}}
+:root[data-theme="dark"]{--lav:#6a4f7a;--dew:#5e3f52}
+.note{position:relative}
+.free{font-size:1.1rem;margin:6px 0 20px}
+.free b{font-family:"Zen Maru Gothic",sans-serif;font-weight:700;font-size:1.5rem;background:linear-gradient(transparent 62%,var(--blossom-soft) 62%);padding:0 6px}
+
+.btn{display:inline-block;font-family:"Zen Maru Gothic",sans-serif;font-weight:700;font-size:1.1rem;color:#fff;background:var(--moss);
+  padding:13px 34px;border-radius:55% 45% 50% 50%/60% 50% 50% 40%;text-decoration:none;border:0;cursor:pointer;
+  box-shadow:3px 4px 0 var(--earth)}
+.btn:active{transform:translate(2px,3px);box-shadow:1px 1px 0 var(--earth)}
+.btn:focus-visible{outline:3px solid var(--water);outline-offset:3px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .btn{color:#1b2326}}
+
+/* cards: hand-drawn wobble, each a different shape on purpose */
+.note{background:var(--paper);padding:22px 22px 14px;border:2px solid var(--line);
+  border-radius:18px 26px 16px 28px/26px 16px 28px 18px}
+.note.water{background:var(--water-soft);border-color:var(--water)}
+.note.moss{background:var(--moss-soft);border-color:var(--moss)}
+.note.pink{background:var(--blossom-soft);border-color:var(--blossom)}
+.note h3{font-size:1.1rem;margin:0 0 6px}
+
+.checks{list-style:none;margin:0;padding:0}
+.checks li{padding-left:34px;margin-bottom:12px;position:relative}
+.checks li::before{content:"";position:absolute;left:0;top:7px;width:22px;height:22px;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 22'%3E%3Cpath d='M3 12 C6 14 8 17 9 19 C12 11 16 6 20 3' fill='none' stroke='%237ea17a' stroke-width='2.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat}
+
+.steps{list-style:none;margin:0;padding:0;border-left:3px dotted var(--water);margin-left:12px}
+.steps li{position:relative;padding:0 0 22px 30px}
+.steps li::before{content:"";position:absolute;left:-12px;top:7px;width:21px;height:21px;border-radius:50%;
+  background:var(--paper);border:3px solid var(--water)}
+.steps li:last-child{padding-bottom:0}
+.steps li:last-child::before{background:var(--moss);border-color:var(--moss)}
+.steps b{font-family:"Zen Maru Gothic",sans-serif;font-weight:700;font-size:1.05rem;display:block}
+
+dl{margin:0}
+dt{font-family:"Zen Maru Gothic",sans-serif;font-weight:700;color:var(--earth);margin-top:12px}
+dd{margin:0 0 6px;padding-bottom:10px;border-bottom:2px dashed var(--line)}
+dd:last-child{border-bottom:0}
+
+.about{display:block}
+.girl{display:block;margin:-2px auto 8px;width:150px;height:auto;overflow:visible}
+.small{font-size:.86rem;color:var(--sub);line-height:1.8}
+.cta{text-align:center}
+.cta .btn{margin:6px 0 14px}
+footer{text-align:center;margin-top:40px;color:var(--sub);font-size:.85rem}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="3.2"/></filter>
+    <filter id="wc" x="-30%" y="-30%" width="160%" height="160%"><feTurbulence type="fractalNoise" baseFrequency=".022" numOctaves="3" seed="9"/><feDisplacementMap in="SourceGraphic" scale="26"/><feGaussianBlur stdDeviation="2.2"/></filter>
+    <symbol id="sprig" viewBox="0 0 60 60">
+      <g class="rough"><path d="M31 38C20 38 12 32 10 24c12-2 20 4 21 14Z" fill="var(--moss)" fill-opacity=".4"/><path d="M32 28C34 16 44 10 52 12c0 12-8 18-20 16Z" fill="var(--moss)" fill-opacity=".4"/>
+      <path class="ln-ink" d="M30 56C30 44 30 36 32 26M31 38C20 38 12 32 10 24c12-2 20 4 21 14ZM32 28C34 16 44 10 52 12c0 12-8 18-20 16Z"/></g>
+    </symbol>
+    <symbol id="spark" viewBox="0 0 24 24"><path class="ln-ink" d="M12 2Q13 10 22 12Q13 14 12 22Q11 14 2 12Q11 10 12 2Z" fill="var(--blossom)"/></symbol>
+    <symbol id="flake" viewBox="0 0 24 24"><path d="M12 2v20M3.5 7l17 10M20.5 7l-17 10" fill="none" stroke="var(--water)" stroke-width="2.4" stroke-linecap="round"/></symbol>
+    <symbol id="flake2" viewBox="0 0 24 24"><path d="M12 2v20M3.4 7l17.2 10M20.6 7L3.4 17M9 4.5l3 3 3-3M9 19.5l3-3 3 3" fill="none" stroke="var(--water)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="drop" viewBox="0 0 24 30"><path class="ln-ink" d="M12 2C6 11 3 15 3 20a9 9 0 0 0 18 0c0-5-3-9-9-18Z" style="fill:var(--dew)"/></symbol>
+  </defs>
+</svg>
+<main>
+
+<header class="hero">
+  <span class="badge">モニターさん募集中</span>
+  <h1>雪が溶け、水になり、<br>大地を潤すように。<svg class="twk" style="top:-26px;left:6px" width="26" height="26" aria-hidden="true"><use href="#flake2" width="26" height="26"/></svg><svg class="twk" style="top:-22px;right:8px;animation-delay:-1.2s" width="20" height="20" aria-hidden="true"><use href="#spark" width="20" height="20"/></svg><svg class="twk" style="bottom:6px;right:0;animation-delay:-.6s" width="18" height="22" aria-hidden="true"><use href="#drop" width="18" height="22"/></svg></h1>
+  <p class="lead">自然の流れに、そっと気づく時間を。</p>
+
+  <svg class="journey" viewBox="0 0 360 390" role="img" aria-label="雪山から溶けた水がしずくになり、大地で芽が育つイラスト">
+    <defs><clipPath id="arch"><path d="M40 376V170a140 140 0 0 1 280 0v206z"/></clipPath></defs>
+    <g clip-path="url(#arch)">
+      <rect width="360" height="390" fill="var(--paper)"/>
+      <g filter="url(#wc)">
+        <circle cx="170" cy="120" r="95" fill="var(--water)" opacity=".4"/>
+        <circle cx="275" cy="235" r="62" fill="var(--blossom)" opacity=".35"/>
+        <circle cx="110" cy="335" r="95" fill="var(--moss)" opacity=".33"/>
+        <circle cx="262" cy="86" r="20" fill="var(--blossom)" opacity=".7"/>
+      </g>
+    </g>
+    <g class="rough">
+      <path class="ln-ink draw" pathLength="1" d="M40 376V170a140 140 0 0 1 280 0v206"/>
+      <path class="ln-ink draw" pathLength="1" style="animation-delay:.3s" d="M62 214L126 140L156 176L212 104L294 214"/>
+      <path d="M212 104L188 138L202 133L213 146L226 132L238 140Z" fill="var(--paper)"/>
+      <path class="ln-ink" d="M188 138L202 133L213 146L226 132L238 140"/>
+      <path d="M126 140L110 162L121 158L129 168L141 156Z" fill="var(--paper)"/>
+      <path class="ln-ink" d="M110 162L121 158L129 168L141 156"/>
+      <path class="ln-soft" d="M212 156q6 20-4 52M164 190q10 8 6 22"/>
+      <path class="ln-soft" stroke-dasharray="2 8" d="M200 214Q216 224 190 238"/>
+      <path d="M40 336Q110 322 180 334T320 328V376H40Z" fill="var(--moss)" opacity=".3"/>
+      <path class="ln-ink" d="M40 336Q110 322 180 334T320 328"/>
+      <path class="ln-soft" d="M124 348q56 8 112 0"/>
+      <path class="ln-ink draw" pathLength="1" style="animation-delay:.7s;fill:var(--dew)" d="M180 226C160 254 148 270 148 288a32 32 0 0 0 64 0c0-18-12-34-32-62Z" fill="var(--dew)"/>
+      <path d="M160 284c0-8 4-14 9-19" fill="none" stroke="var(--paper)" stroke-width="3.4" stroke-linecap="round"/>
+    </g>
+    <circle cx="170" cy="291" r="2.8" fill="var(--ink)"/><circle cx="190" cy="291" r="2.8" fill="var(--ink)"/>
+    <path class="ln-ink" d="M175 299q5 5 10 0"/>
+    <circle cx="161" cy="299" r="5" fill="var(--blossom)" opacity=".85"/><circle cx="199" cy="299" r="5" fill="var(--blossom)" opacity=".85"/>
+    <use href="#sprig" x="58" y="280" width="58" height="58"/>
+    <use href="#sprig" x="244" y="278" width="58" height="58"/>
+    <g class="fl"><use href="#flake" x="100" y="78" width="20" height="20"/></g>
+    <g class="fl d2"><use href="#flake" x="146" y="54" width="16" height="16"/></g>
+    <g class="fl d3"><use href="#flake" x="236" y="74" width="18" height="18"/></g>
+    <g class="fl d2"><use href="#spark" x="6" y="140" width="28" height="28"/></g>
+    <g class="fl"><use href="#spark" x="322" y="60" width="22" height="22"/></g>
+    <text x="226" y="22" font-family="Caveat, cursive" font-size="24" fill="var(--sub)" transform="rotate(5 226 22)">theta healing</text>
+    <text x="208" y="386" font-family="Caveat, cursive" font-size="22" fill="var(--sub)" transform="rotate(-3 208 386)">melt, flow, grow</text>
+  </svg>
+
+  <p class="hand" style="font-size:1.25rem;margin:10px 0 2px">シータヒーリング</p>
+  <p class="free"><b>無料</b>モニターセッション受付中</p>
+  <a class="btn" href="#yoyaku">DMでご予約・ご質問</a>
+</header>
+
+<section>
+  <h2>こんにちは</h2>
+  <div class="note moss">
+    <div class="about">
+      <svg class="girl" viewBox="0 0 140 150" role="img" aria-label="目を閉じてほほえむ、ショートボブの女の子のイラスト">
+        <g filter="url(#wc)">
+          <circle cx="70" cy="80" r="64" fill="var(--lav)" opacity=".5"/>
+          
+        </g>
+        <g class="rough">
+          <path d="M37 72C37 42 54 28 70 28C86 28 103 42 103 72C103 83 102 90 99 95Q70 101 41 95C38 90 37 83 37 72Z" fill="var(--sub)"/>
+          <circle cx="70" cy="37" r="7" fill="var(--ink)"/><path class="ln-ink" d="M34 150C34 124 50 114 70 114C90 114 106 124 106 150"/>
+          <ellipse cx="70" cy="75" rx="26" ry="29" fill="var(--paper)"/>
+          <clipPath id="faceclip"><ellipse cx="70" cy="75" rx="26" ry="29"/></clipPath><path clip-path="url(#faceclip)" d="M40 40H100V55Q70 60 40 55Z" fill="var(--sub)"/><ellipse class="ln-ink" cx="70" cy="75" rx="26" ry="29"/>
+        </g>
+        <path class="ln-ink" d="M57 77q5 5 10 0M73 77q5 5 10 0"/>
+        <path d="M65 88q5 5 10 0" fill="none" stroke="#d98f9a" stroke-width="2.2" stroke-linecap="round"/>
+        <circle cx="56" cy="85" r="5" fill="var(--blossom)" opacity=".85"/><circle cx="84" cy="85" r="5" fill="var(--blossom)" opacity=".85"/>
+        <g class="fl"><use href="#spark" x="6" y="26" width="16" height="16"/></g>
+        <g class="fl d2"><use href="#spark" x="108" y="10" width="22" height="22"/></g>
+      </svg>
+      <div>
+        <p>今年からシータヒーリングを始めました。まだ駆け出しの私ですが、ひとりひとりのお話に丁寧に向き合うことを大切にしています。</p>
+        <p style="margin-bottom:8px">経験を重ねさせていただくために、無料でモニターさんを募集します。いっしょに、ゆっくり進んでいけたらうれしいです。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>シータヒーリングって？</h2>
+  <div class="note">
+    <svg class="doodle fl" style="top:-20px;right:16px" aria-hidden="true"><use href="#drop" width="38" height="38"/></svg><p>ひとことで言うと、「自分でも気づいていなかった思い込みや考えのクセに、そっと目を向けていく」時間です。</p>
+    <p>むずかしい知識も、特別な力も、信じる気持ちも必要ありません。お茶を飲みながらおしゃべりするくらいの感覚で、座って話すだけでだいじょうぶ。</p>
+  </div>
+</section>
+
+<section>
+  <h2>こんな方に</h2>
+  <div class="note water">
+    <svg class="doodle fl" style="top:-18px;right:14px" aria-hidden="true"><use href="#flake" width="38" height="38"/></svg><ul class="checks">
+      <li>スピリチュアルは、ちょっと苦手…という方</li>
+      <li>ヒーリングは初めてで、何をするのか気になる方</li>
+      <li>なんとなくモヤモヤして、気持ちを整理したい方</li>
+      <li>自分の心の流れに、やさしく向き合ってみたい方</li>
+    </ul>
+    <p class="small" style="margin-top:-2px">「ちょっと気になるかも」くらいの気持ちで、まったく問題ありません。</p>
+  </div>
+</section>
+
+<section>
+  <h2>当日の流れ</h2>
+  <ol class="steps">
+    <li><b>ごあいさつ</b>お茶の時間のように、まずは気軽におしゃべり。</li>
+    <li><b>気になることをお話し</b>話したい分だけで大丈夫。話したくないことは話さなくてOK。</li>
+    <li><b>ヒーリング</b>ゆったりした気持ちで、リラックスしてお過ごしください。</li>
+    <li><b>感想をシェア</b>感じたことを、ひとことずつ教えてください。</li>
+  </ol>
+</section>
+
+<section>
+  <h2>モニター内容</h2>
+  <div class="note pink">
+    <svg class="doodle fl" style="top:-18px;right:16px" aria-hidden="true"><use href="#spark" width="38" height="38"/></svg><dl>
+      <dt>料金</dt><dd>無料</dd>
+      <dt>所要時間</dt><dd>約60分（目安）</dd>
+      <dt>お願いしたいこと</dt><dd>セッション後に、感想をひとこといただけるとうれしいです。</dd>
+      <dt>ご安心ください</dt><dd>しつこい勧誘や、物の販売は一切ありません。合わないと感じたら、遠慮なくお伝えください。</dd>
+    </dl>
+  </div>
+</section>
+
+<section id="yoyaku" class="cta">
+  <h2>ご予約・ご質問はDMまで</h2>
+  <p>「まだ迷ってるけど聞いてみたい」だけでも、<br>気軽にメッセージくださいね。</p>
+  <a class="btn" href="#yoyaku">DMを送る</a>
+  <p class="small">※ヒーリングは医療行為ではありません。<br>体調に不安がある場合は、医療機関にご相談ください。</p>
+</section>
+
+<footer class="hand"><svg width="28" height="28" style="vertical-align:middle" aria-hidden="true"><use href="#sprig" width="28" height="28"/></svg> お会いできるのを楽しみにしています <svg width="28" height="28" style="vertical-align:middle" aria-hidden="true"><use href="#sprig" width="28" height="28"/></svg></footer>
+
+</main>
+</body>
+</html>
